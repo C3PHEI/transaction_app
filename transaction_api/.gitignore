@@ -1,0 +1,36 @@
+﻿# ------------------------
+# Build-Outputs ignorieren
+# ------------------------
+**/bin/
+**/obj/
+
+# ------------------------
+# IDE- und Editor-Dateien
+# ------------------------
+.vs/                # Visual Studio Workspace
+*.user              # VS-Benutzereinstellungen
+*.suo               # VS Solution Options
+.vscode/            # VS Code
+.idea/              # JetBrains Rider / IntelliJ
+
+# ------------------------
+# .NET User Secrets (falls genutzt)
+# ------------------------
+secrets.json
+
+# ------------------------
+# Logs und temporäre Files
+# ------------------------
+*.log
+logs/
+
+# ------------------------
+# Publish-Ordner (optional)
+# ------------------------
+publish/
+
+# ------------------------
+# Betriebssystem
+# ------------------------
+.DS_Store
+Thumbs.db
